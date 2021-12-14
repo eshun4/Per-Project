@@ -1,0 +1,85 @@
+name: rideboard
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.10.0
+  flutter_spinkit: 
+  firebase_core: ^0.5.3
+  firebase_auth: ^0.18.1+2
+  firebase_database: ^4.1.1
+  carousel_slider: 
+  provider: ^4.3.2+2
+  fluttertoast: 
+  google_maps_flutter: ^1.0.3
+  geolocator: 
+  http: ^0.12.1
+  flutter_polyline_points: ^0.2.4
+  animated_text_kit: ^2.5.4
+  flutter_geofire: ^1.0.3
+  firebase_messaging: ^7.0.3
+  assets_audio_player: ^2.0.13+1
+  image_picker:
+  firebase_storage: 
+  intl: ^0.16.1
+  maps_toolkit: ^1.1.0+2
+  flutter_restart: ^0.0.3
+  url_launcher: ^6.0.3
+  smooth_star_rating: ^1.1.1
+
+
+  
+  
+  
+
+  
+
+
+  
+  cupertino_icons: ^0^1^3
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  splashscreen:
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - assets/
+    
+
+  
+  fonts:
+    - family: Permanent Marker
+      fonts:
+        - asset: assets/PermanentMarker-Regular.ttf
+
+ 
+    - family: Roboto
+      fonts:
+        - asset: assets/Roboto-Regular.ttf
+    
+
+    - family: Big Shoulders Inline Text
+      fonts:
+        - asset: assets/BigShouldersInlineText-Black.ttf
+        
+  
+ 

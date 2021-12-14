@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522076148754",
+    "project_id": "rideboard-9d87b",
+    "storage_bucket": "rideboard-9d87b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522076148754:android:70fe96487fda56f2dc74cb",
+        "android_client_info": {
+          "package_name": "com.KJ.Rideboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522076148754-87u6o6moc7r0ruhkkhsrqgvgk057e0aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdxdoppPUsp6dOTlCgToFJT1T6odg_96s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522076148754-87u6o6moc7r0ruhkkhsrqgvgk057e0aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
