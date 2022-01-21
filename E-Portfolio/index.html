@@ -8,6 +8,7 @@
     <link rel="preload" href="/css/normalize.css" as="style">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Kofi Junior Eshun: Home</title>
 <!-- CSS Stylesheet -->
 <!-- <link rel="stylesheet" href="css/normalize.css"> -->
@@ -16,6 +17,7 @@
     <link href="/E-Portfolio/css/large.css" rel="stylesheet" type="text/css">
 </head>
 <body >
+    <script src="/E-Portfolio/js/lastUpdated.js"> </script>
 <header class='main-header'>
     <div >
        <img src="/E-Portfolio/images/logo/logo.jpg" class='main-nav_logo' alt="">
@@ -32,14 +34,53 @@
         </nav>
     </div>
 </header>
-       
-    <main>
-       
-        
+    <main class="wrapper">
+            <div class="wrapper__section1"> </div>
+            <div  class="wrapper__section2" > </div>
+            <div class="background_img__section"> 
+                <img src="/E-Portfolio/images/personalImages/mypic1.jpg" class="profileImage" alt="profImage">
+                    <div class="slideshow-container">
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                          <img src="/E-Portfolio/images/pageImages/contactme02.jpg" style="width:100%" alt="img1">
+                          <!-- <div class="text">Caption Text</div> -->
+                        </div>
+                        <div class="mySlides fade">
+                          <img src="/E-Portfolio/images/pageImages/education02.jpg" style="width:100%" alt="img2">
+                          <!-- <div class="text">Caption Two</div> -->
+                        </div>
+                        <div class="mySlides fade">
+                          <img src="/E-Portfolio/images/pageImages/jobexperience02.jpg" style="width:100%" alt="img3">
+                          <!-- <div class="text">Caption Three</div> -->
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                      
+                </div>
+                <br><br><br>
+                <div class="wrapper__section3">
+                       <section>
+
+                       </section>
+
+                </div>
     </main>
 <footer>
-  
+    <div class="social_links">
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-skype"></a>
+        <a href="#" class="fa fa-facebook"></a>
+    </div>
+    <div class="copyright"> &#169; 2022 | Kofi Junior Eshun | Last Updated: <script> 
+        lastModified();
+        </script>
+    </div>
 </footer>
+<script src="/E-Portfolio/js/carousel.js"> </script>
+
 
 </body>
 </html> 

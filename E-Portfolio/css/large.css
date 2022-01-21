@@ -5,9 +5,17 @@
     text-decoration: none;
 }
 
-/* body{
-    
-} */
+body{
+    background-color: #717171;
+}
+
+
+
+.wrapper {
+    max-width:980px;
+    margin:20px auto; /*This ensures the max-width takes effect*/
+}
+
 
 .main-header{
     width:100%;
@@ -15,7 +23,11 @@
     /* padding:8px 16px; */
     font-family: 'Gentium Book Basic', serif;
     font-weight: bold;
-    font-size: 20px; 
+    font-size: 20px;
+    position:fixed;
+    top:0;
+    left:0; 
+    z-index:1;
 }
 
  .main-nav_logo{
@@ -43,15 +55,142 @@
 
 .main-nav_item:hover{
     background-color:rgb(6, 6, 31);
-    border-bottom:2px solid white;
+    border-bottom:3px solid #b62c02
 }
 
 .cta{
     border-radius: 20px;
-    border:5px solid red;
-    background-color: red;
+    border:5px solid #b62c02;
+    background-color: #b62c02;
     padding:4px;
     margin:4px;
 }
 
+.wrapper__section2{
+    background-image: url(../images/pageImages/contactMe3.jpg);
+    width:980px;
+    height:500px;
+    position:absolute;
+    background-size: 100%;
+    z-index:-1;
+    border-bottom: 5px solid #717171;
+    padding-bottom: 10px;
+    /* background-repeat: repeat-x; */
+}
 
+.background_img__section{
+    display:flex;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    margin-top: 68px;
+    text-align: center;
+}
+
+.profileImage{
+    width:40%;
+    height:55%;
+    border: 1px solid #717171;
+    border-radius: 10px;
+   
+}
+.slideshow-container{
+
+    padding-left: 10px;
+    max-width: 980px;
+    position: relative;
+    margin: auto;
+    width:100%;
+    height:100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .wrapper__section1{
+      width:100%;
+      height:50px;
+      background-color: #717171;
+  }
+
+  .wrapper__section3{
+    width:100%;
+    background-color: #000d30;
+    margin-top:13px;
+  }
+
+footer{
+    text-align:center;
+    background-color: #000d30;
+    color:white;
+    max-width:980px;
+    margin:20px auto;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 15px;
+}
+
+.fa-skype, .fa-linkedin, .fa-instagram, .fa-facebook {
+    color: white;
+    font-size:40px;
+    padding:10px 100px;
+  }
+
+  .social_links{
+      border-bottom: 3px solid#717171;;
+  }
+
+  .copyright{
+      padding:10px 10px;
+  }
