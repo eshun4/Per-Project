@@ -15,8 +15,7 @@
     /* padding:8px 16px; */
     font-family: 'Gentium Book Basic', serif;
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
  .main-nav_logo{
@@ -44,7 +43,7 @@
 
 .main-nav_item:hover{
     background-color:rgb(6, 6, 31);
-    border-bottom:4px solid white;
+    border-bottom:2px solid white;
 }
 
 .cta{
