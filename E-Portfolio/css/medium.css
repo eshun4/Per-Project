@@ -1,0 +1,10 @@
+@media (max-width: 65.4rem){
+    
+     .main-header .toggle-button{
+        display:flex;
+    }
+
+     .main-nav .main-nav_items {
+        display:none;
+    }
+}
