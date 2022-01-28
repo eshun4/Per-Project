@@ -8,10 +8,19 @@
         width:100vw;
      }
 
-    .wrapper_laptop { 
+    .wrapper_laptop  { 
         grid-area: 3 / 1 / 4 / 2;
         display:none;
      }
+
+     .banner_contactMe__icon{
+        grid-area: 3 / 1 / 4 / 2;
+     }
+
+     .banner_contactMe__ctME, .banner_contactMe__icon{
+        width:100vw;
+        text-align:center;
+    }
 
      .main-header .toggle-button{
         display:flex;
@@ -20,4 +29,5 @@
      .main-nav .main-nav_items {
         display:none;
     }
+
 }
