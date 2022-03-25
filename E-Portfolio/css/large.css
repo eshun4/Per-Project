@@ -18,7 +18,7 @@ main{
 
 .wrapper {
     max-width:980px;
-    margin:20px auto; /*This ensures the max-width takes effect*/
+    margin:5px auto; /*This ensures the max-width takes effect*/
 }
 
 
@@ -36,7 +36,7 @@ main{
 
 .main-header__logobrand{
     display:inline-block;
-    height:55px;
+    height:66px;
     width:170px;
 }
  .main-nav_logo{
@@ -78,28 +78,27 @@ main{
 }
 
 .wrapper__section2{
-    background-image: url(../images/pageImages/contactMe3.jpg) ;
-    max-width:980px;
-    width:100%;
-    height:500px;
+    background-image: url(../images/pageImages/contactMe3.jpg);
     background-origin: padding-box;
-    position:absolute;
     background-size: 100%;
-    z-index:-1;
     border-bottom: 5px solid #717171;
-    padding-bottom: 10px;
-    background-position: 0% 100%;
-    background-repeat:repeat;
-    
+    padding:10px 15px;
+    /* padding-bottom: 10px; */
+    /* background-position: fixed; */
+    background-repeat:no-repeat;
+    border-top:2px solid #3d0404;
+    border-bottom:2px solid #3d0404;
+    margin-top: 75px;
+    box-shadow: 5px 5px 5px #3e4047;
 }
 
 .background_img__section{
     display:flex;
     grid-template-rows: 1fr 1fr;
-    padding: 10px;
-    margin-top: 68px;
+    /* padding: 10px; */
+    
     text-align: center;
-    padding-top: 50px;
+    /* padding-top: 10px; */
 }
 
 .profileImage{
@@ -109,10 +108,10 @@ main{
     border-radius: 10px;
 }
 .profileImage:hover{
-    border: 1.5px solid #717171;
+    box-shadow: 5px 5px 5px #3e4047;
 }
-.slideshow-container{
 
+.slideshow-container{
     padding-left: 10px;
     max-width: 980px;
     position: relative;
@@ -182,13 +181,14 @@ main{
   .wrapper__section3{
     width:100%;
     background-color: #000d30;
-    margin-top:13px;
+    margin-top:5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-top:2px solid #3d0404;
     border-bottom:2px solid #3d0404;
     text-align: center;
     padding:10px 0px;
+    box-shadow: 5px 5px 5px #3e4047;
   }
 
 footer{
@@ -196,10 +196,10 @@ footer{
     text-align:center;
     background-color: #000d30;
     color:white;
-    max-width:980px;
-    margin:20px auto;
     font-family: 'Gentium Book Basic', serif;
     font-size: 15px;
+    margin-top:5px;
+    box-shadow: 5px 5px 5px #3e4047;
 }
 
 .fa-skype, .fa-linkedin, .fa-instagram, .fa-facebook {
@@ -208,10 +208,10 @@ footer{
     padding:10px 100px;
   }
 
-  .social_links{
+.social_links{
       border-top:2px solid #3d0404;
       border-bottom: 3px solid#717171;
-  }
+}
 
 
   .copyright{
@@ -247,11 +247,12 @@ footer{
     justify-content:space-between;
     width:50px;
     height:41px;
+    padding-top:7px;
 }
 
  .bar{
-    height:5px;
-    width:100%;
+    height:9px;
+    width:105%;
     background-color:white;
     border-radius:10px;
 }
@@ -312,17 +313,19 @@ footer{
 .banner_contactMe{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 50px 0px 2px 0px;
+    /* margin: 50px 0px 2px 0px; */
     border-bottom: 2px solid#3d0404;
     border-top: 2px solid#3d0404;
     padding: 20px 0px;
     background-color: #000d30;
+    margin-top:5px;
+    box-shadow: 5px 5px 5px #3e4047;
 }
 
 .banner_contactMe__ctME{
-    font-size:30px;
+    font-size:25px;
     text-align:center;
-    margin-top:22px;
+    margin-top:10px;
 }
 
  .banner_contactMe__icon{
@@ -330,9 +333,9 @@ footer{
 }
 
 .fa-envelope-open{
-    font-size:60px;
+    font-size:40px;
     border:3px solid black;
-    padding:20px;
+    padding:10px;
     border-radius:50%;
     background-color:#3d0404;;
     box-shadow: 3px 0px #000d30;  

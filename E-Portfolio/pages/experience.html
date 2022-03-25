@@ -19,30 +19,55 @@
 </head>
 <body >
     <script src="/E-Portfolio/js/lastUpdated.js"> </script>
+    <div class="backdrop"></div>
 <header class='main-header'>
     <div >
-        <div class="main-header__logobrand">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <a href="#" class="main-header__logobrand">
             <img src="/E-Portfolio/images/logo/logo.jpg" class='main-nav_logo' alt="">
-        </div>
+        </a>
         <nav class='main-nav'>
             <ul class='main-nav_items'>
                 <li class='main-nav_item'> <a href="/E-Portfolio/index.html">Home </a></li>
-                <li class='main-nav_item'> <a href="/E-Portfolio/pages/aboutme.html">About Me </a></li>
                 <li class='main-nav_item'> <a href="/E-Portfolio/pages/education.html">Education </a></li>
                 <li class='main-nav_item'> <a href="/E-Portfolio/pages/experience.html">Experience </a></li>
                 <li class='main-nav_item'> <a href="/E-Portfolio/pages/resume.html">Resume </a></li>
                 <li class='main-nav_item'> <a href="/E-Portfolio/pages/projects.html">Projects </a></li>
-                <li class='main-nav_item cta'> <a href="/E-Portfolio/pages/contactme.html">Contact Me </a></li>
+                <!-- <li class='main-nav_item cta'> <a href="/E-Portfolio/pages/contactme.html">Contact Me </a></li> -->
             </ul>
         </nav>
     </div>
 </header>
-       
-    <main>
-       
-        
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="/E-Portfolio/index.html">Home </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="/E-Portfolio/pages/education.html">Education </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="/E-Portfolio/pages/experience.html">Experience </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="/E-Portfolio/pages/resume.html">Resume </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="/E-Portfolio/pages/projects.html">Projects </a>
+            </li>
+            <!-- <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="/E-Portfolio/pages/contactme.html">Contact Me </a>
+            </li> -->
+        </ul>
+    </nav>
+
+    <div class="wrapper">
     </main>
-<footer>
+    <footer>
         <div class="social_links">
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-instagram"></a>
@@ -53,7 +78,9 @@
             lastModified();
             </script>
         </div>
-</footer>
+    </footer>
+</div> 
 <script src="/E-Portfolio/js/carousel.js"> </script>
+<script src="/E-Portfolio/js/nav-bar.js"> </script>
 </body>
 </html> 
