@@ -61,10 +61,10 @@ main{
     list-style:none;
 }
 
+
 .main-nav_item, .mobile-nav__item a{
     display:inline-block;
     padding:20px;
-    
 }
 
 .main-nav_item:hover{
@@ -335,6 +335,46 @@ footer{
     background: rgba(0,0,0,0.5); 
 }
 
+#sendbutton{
+    padding:5px;
+    background-color:#3d0404;;
+    box-shadow: 3px 0px #000d30;  
+    color:white;
+}
+
+.fa-close{
+    font-size:48px;
+    padding:5px;
+}
+
+form{
+    display:fixed;
+}
+
+form > input{
+    color:black;
+}
+
+form > textarea {
+    color:black;
+}
+
+.modal {
+  position: fixed;
+  top:100px;
+  display: none;
+  z-index: 200;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  text-align: center;
+  border-bottom: 2px solid#3d0404;
+  border-top: 2px solid#3d0404;
+  padding: 10px 0px;
+  background-color: #000d30;
+  box-shadow: 5px 5px 5px #3e4047;
+  color:#000d30;
+}
 
 
 .banner_contactMe{
