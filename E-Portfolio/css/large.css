@@ -349,14 +349,17 @@ footer{
 
 form{
     display:fixed;
+    padding:20px;
 }
 
 form > input{
     color:black;
+    width:80%;
 }
 
 form > textarea {
     color:black;
+    width:100%;
 }
 
 .modal {
