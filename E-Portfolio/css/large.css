@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
 *{
     margin:0;
     padding:0;
     color:white;
     text-decoration: none;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Roboto Serif', serif;
+    box-sizing: border-box;
 }
 html{
     width: 100vw;
@@ -11,6 +14,7 @@ html{
 }
 body{
     background-color: #717171;
+    height:100%;
 }
 main{
     max-height: fit-content;
@@ -191,6 +195,29 @@ main{
     box-shadow: 5px 5px 5px #3e4047;
   }
 
+  .wrapper__section4{
+    width:100%;
+    background-color: #000d30;
+    margin-top:5px;
+    border-top:2px solid #3d0404;
+    border-bottom:2px solid #3d0404;
+    text-align: center;
+    padding:10px 0px;
+    box-shadow: 5px 5px 5px #3e4047;
+ 
+  }
+
+  .wrapper__section4 > p {
+    font-size: 22px;
+    padding:30px;
+  }
+
+  .wrapper__section4 > h3 {
+    font-size: 32px;
+    font-weight:bold;
+    border-bottom:2px solid #3d0404;
+  }
+
 footer{
     border-bottom: 3px solid#3d0404;
     text-align:center;
@@ -219,7 +246,7 @@ footer{
   }
 
  .fa-laptop{
-      font-size: 200px;
+      font-size: 350px;
       color:white;
       font-weight: lighter;
   }
@@ -232,10 +259,11 @@ footer{
     padding:5px;
     line-height:1.5;
     text-align: left;
+    font-size: 22px;
 }
 
 .wrapper__section3__intro_text_bigger{
-    font-size:20px;
+    font-size:28px;
 }
 
 .toggle-button{
@@ -285,7 +313,6 @@ footer{
     box-shadow: 0px 15px 20px #717171;
     color: #fff;
     transform: translateY(-2px);
-    
 }
 
 .mobile-nav__item {
@@ -336,7 +363,6 @@ footer{
     font-size:40px;
     border:3px solid black;
     padding:10px;
-    border-radius:50%;
     background-color:#3d0404;;
     box-shadow: 3px 0px #000d30;  
     transition: all 0.3s ease 0s;

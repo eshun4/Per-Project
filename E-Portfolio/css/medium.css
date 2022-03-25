@@ -1,4 +1,4 @@
-@media (max-width: 65.4rem){
+@media screen and (max-width: 550px)  {
     
      .main-header .toggle-button{
         display:flex;
@@ -8,4 +8,5 @@
      .main-nav .main-nav_items {
         display:none;
     }
+
 }
